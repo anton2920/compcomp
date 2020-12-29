@@ -1,0 +1,24 @@
+Unused vars removed: red 
+
+L1:
+	LOAD 32.649998
+	STORE a
+L3:
+	LOAD 453
+	STORE b
+L4:
+L5:
+	CMP a, b
+	JLE L7
+L6:
+	LOAD 25
+	MPY 748
+	STORE t1
+	LOAD 54.669998
+	ADD t1
+	STORE z
+	JMP L2
+L7:
+	LOAD 748
+	STORE z
+L2:

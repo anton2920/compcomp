@@ -1,0 +1,16 @@
+{
+    float a;
+    float b;
+    float z;
+    float red;
+    int red2;
+
+    a = 32.65;
+    b = 453;
+    red = 0AA15;
+
+    if (a > b)
+        z = 54.67 + XXV * 748;
+    else
+        z = 748;
+}

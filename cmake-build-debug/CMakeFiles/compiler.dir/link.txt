@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/compiler.dir/main.cpp.o CMakeFiles/compiler.dir/Lexer.cpp.o CMakeFiles/compiler.dir/Tokens.cpp.o CMakeFiles/compiler.dir/Env.cpp.o CMakeFiles/compiler.dir/Inter.cpp.o  -o compiler 

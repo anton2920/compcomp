@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/optimizer.dir/asm/optimize.cpp.o CMakeFiles/optimizer.dir/asm/Lexer.cpp.o CMakeFiles/optimizer.dir/asm/Tokens.cpp.o  -o optimizer 
