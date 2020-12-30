@@ -1,0 +1,23 @@
+Vt (Терминальные символы):
+{ 0...9, a...z, A...Z, _, +, -, *, /, >, <, =, !, ., (, ), `{`, `}` }
+id -> [a..z] id
+id -> [a..z]
+int -> [0..9] int
+int -> [0..9]
+op -> [+,-,*,/]
+
+Vn (Нетерминальные символы):
+{ ifelse, ifpart, cond_op, cond_right, ifblock, asgn, expr, right_h, end }
+
+R (Множество продукций):
+ifelse -> `if` ifpart
+ifpart -> [id|int] cond_op
+ifpart -> [id|int] ifblock
+cond_op -> op cond_right
+cond_right -> [id|int] ifblock
+ifblock -> { id asgn }
+asgn -> `=` expr
+expr -> [id|int] right_h
+right_h -> op expr
+right_h -> op end
+end -> [id|int]

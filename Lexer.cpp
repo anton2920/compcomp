@@ -116,7 +116,7 @@ Token *Lexer::scan()
     if (isdigit(peek)) {
         int v = 0;
 
-        if (peek == '0') {
+        /*if (peek == '0') {
             do {
                 int add = 0;
                 switch (peek) {
@@ -152,12 +152,12 @@ Token *Lexer::scan()
                 v = 16 * v + add;
                 readch();
             } while (isxdigit(peek));
-        } else {
+        } else {*/
             do {
                 v = 10 * v + (peek - '0');
                 readch();
             } while (isdigit(peek));
-        }
+        // }
 
         if (peek != '.') {
             Token *n;

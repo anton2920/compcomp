@@ -1,0 +1,25 @@
+identifier = ([a-z]|[A-Z]|_)([0-9]|[a-z]|[A-Z]|_)*
+
+number = ([0-9]*[.])?[0-9]+
+
+roman = (X{0,3})(IX|IV|V?I{0,3})
+
+boolean = true|false
+
+factor = \(?expression\)? | number | identifier | roman | boolean
+
+terminal = (terminal [\*/] factor) | factor
+
+add = (add [\+\-] terminal) | terminal
+
+relation = (rel  < add) |
+           (rel <= add) |
+           (rel == add) |
+           (rel  > add) |
+           (rel >= add) | add
+
+expression = (identifier = expression) | relation
+
+block = { (statement)* }
+
+statement = (expression;) | (if \(expression\) block (else block)?)

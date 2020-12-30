@@ -1,0 +1,22 @@
+Vt (Терминальные символы):
+{ 0...9, a...z, A...Z, _, +, -, *, /, >, <, =, !, ., (, ), `{`, `}` }
+
+Vn (Нетерминальные символы):
+{ digit, letter, id, num, expr, stmt, block }
+
+R (Множество продукций):
+digit -> 0|1|2|3|4|5|6|7|8|9
+letter -> a|b|...|z|A|B|...|Z|_
+id -> letter{letter|digit}
+num -> digit{digit}[.{digit}]
+roman -> {X}(IX|IV|V){I}
+factor -> ‘(‘expr’)’|num|id|romans
+term -> (term * factor)|factor
+add -> (add + term)|term
+rel -> (rel < add) | (rel <= add) | (rel == add) | (rel > add) | (rel >= add) | add
+expr -> [id =] rel
+stmt -> expr; | if `(`expr`)` then block [else block]
+block -> `{` {stmt} `}`
+
+S (Начальный символ грамматики):
+block
