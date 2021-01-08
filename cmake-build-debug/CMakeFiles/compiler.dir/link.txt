@@ -1,1 +1,3 @@
-/usr/bin/c++  -g   CMakeFiles/compiler.dir/main.cpp.o CMakeFiles/compiler.dir/Lexer.cpp.o CMakeFiles/compiler.dir/Tokens.cpp.o CMakeFiles/compiler.dir/Env.cpp.o CMakeFiles/compiler.dir/Inter.cpp.o  -o compiler 
+"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\compiler.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\compiler.dir/objects.a @CMakeFiles\compiler.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\compiler.dir/objects.a -Wl,--no-whole-archive  -o compiler.exe -Wl,--out-implib,libcompiler.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\compiler.dir\linklibs.rsp

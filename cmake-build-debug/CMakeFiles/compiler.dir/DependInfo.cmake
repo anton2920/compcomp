@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/anton/compcomp/Env.cpp" "/home/anton/compcomp/cmake-build-debug/CMakeFiles/compiler.dir/Env.cpp.o"
-  "/home/anton/compcomp/Inter.cpp" "/home/anton/compcomp/cmake-build-debug/CMakeFiles/compiler.dir/Inter.cpp.o"
-  "/home/anton/compcomp/Lexer.cpp" "/home/anton/compcomp/cmake-build-debug/CMakeFiles/compiler.dir/Lexer.cpp.o"
-  "/home/anton/compcomp/Tokens.cpp" "/home/anton/compcomp/cmake-build-debug/CMakeFiles/compiler.dir/Tokens.cpp.o"
-  "/home/anton/compcomp/main.cpp" "/home/anton/compcomp/cmake-build-debug/CMakeFiles/compiler.dir/main.cpp.o"
+  "C:/Users/anton/compcomp/Env.cpp" "C:/Users/anton/compcomp/cmake-build-debug/CMakeFiles/compiler.dir/Env.cpp.obj"
+  "C:/Users/anton/compcomp/Inter.cpp" "C:/Users/anton/compcomp/cmake-build-debug/CMakeFiles/compiler.dir/Inter.cpp.obj"
+  "C:/Users/anton/compcomp/Lexer.cpp" "C:/Users/anton/compcomp/cmake-build-debug/CMakeFiles/compiler.dir/Lexer.cpp.obj"
+  "C:/Users/anton/compcomp/Tokens.cpp" "C:/Users/anton/compcomp/cmake-build-debug/CMakeFiles/compiler.dir/Tokens.cpp.obj"
+  "C:/Users/anton/compcomp/main.cpp" "C:/Users/anton/compcomp/cmake-build-debug/CMakeFiles/compiler.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
