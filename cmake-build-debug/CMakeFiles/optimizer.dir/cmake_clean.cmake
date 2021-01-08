@@ -1,10 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/optimizer.dir/asm/Lexer.cpp.obj"
-  "CMakeFiles/optimizer.dir/asm/Tokens.cpp.obj"
-  "CMakeFiles/optimizer.dir/asm/optimize.cpp.obj"
-  "liboptimizer.dll.a"
-  "optimizer.exe"
-  "optimizer.exe.manifest"
+  "CMakeFiles/optimizer.dir/asm/Lexer.cpp.o"
+  "CMakeFiles/optimizer.dir/asm/Tokens.cpp.o"
+  "CMakeFiles/optimizer.dir/asm/optimize.cpp.o"
+  "optimizer"
   "optimizer.pdb"
 )
 

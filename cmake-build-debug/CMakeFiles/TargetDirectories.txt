@@ -1,4 +1,4 @@
-C:/Users/anton/compcomp/cmake-build-debug/CMakeFiles/optimizer.dir
-C:/Users/anton/compcomp/cmake-build-debug/CMakeFiles/compiler.dir
-C:/Users/anton/compcomp/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/anton/compcomp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/anton/compcomp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/anton/compcomp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/anton/compcomp/cmake-build-debug/CMakeFiles/optimizer.dir
+/home/anton/compcomp/cmake-build-debug/CMakeFiles/compiler.dir

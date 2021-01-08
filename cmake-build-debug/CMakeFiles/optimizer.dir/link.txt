@@ -1,3 +1,1 @@
-"C:\Program Files\JetBrains\CLion 2020.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\optimizer.dir/objects.a
-C:\MinGW\bin\ar.exe cr CMakeFiles\optimizer.dir/objects.a @CMakeFiles\optimizer.dir\objects1.rsp
-C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\optimizer.dir/objects.a -Wl,--no-whole-archive  -o optimizer.exe -Wl,--out-implib,liboptimizer.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\optimizer.dir\linklibs.rsp
+/usr/bin/c++  -g   CMakeFiles/optimizer.dir/asm/optimize.cpp.o CMakeFiles/optimizer.dir/asm/Lexer.cpp.o CMakeFiles/optimizer.dir/asm/Tokens.cpp.o  -o optimizer 

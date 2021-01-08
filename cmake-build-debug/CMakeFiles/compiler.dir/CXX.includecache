@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/anton/compcomp/Env.hpp
+/home/anton/compcomp/Env.hpp
 unordered_map
 -
 Inter.hpp
-C:/Users/anton/compcomp/Inter.hpp
+/home/anton/compcomp/Inter.hpp
 Tokens.hpp
-C:/Users/anton/compcomp/Tokens.hpp
+/home/anton/compcomp/Tokens.hpp
 
-C:/Users/anton/compcomp/Inter.hpp
+/home/anton/compcomp/Inter.hpp
 string
 -
 iostream
@@ -22,11 +22,11 @@ iostream
 exception
 -
 Tokens.hpp
-C:/Users/anton/compcomp/Tokens.hpp
+/home/anton/compcomp/Tokens.hpp
 Lexer.hpp
-C:/Users/anton/compcomp/Lexer.hpp
+/home/anton/compcomp/Lexer.hpp
 
-C:/Users/anton/compcomp/Lexer.hpp
+/home/anton/compcomp/Lexer.hpp
 iostream
 -
 fstream
@@ -34,27 +34,27 @@ fstream
 unordered_map
 -
 Tokens.hpp
-C:/Users/anton/compcomp/Tokens.hpp
+/home/anton/compcomp/Tokens.hpp
 
-C:/Users/anton/compcomp/Parser.hpp
+/home/anton/compcomp/Parser.hpp
 Lexer.hpp
-C:/Users/anton/compcomp/Lexer.hpp
+/home/anton/compcomp/Lexer.hpp
 Inter.hpp
-C:/Users/anton/compcomp/Inter.hpp
+/home/anton/compcomp/Inter.hpp
 Env.hpp
-C:/Users/anton/compcomp/Env.hpp
+/home/anton/compcomp/Env.hpp
 
-C:/Users/anton/compcomp/Tag.hpp
+/home/anton/compcomp/Tag.hpp
 
-C:/Users/anton/compcomp/Tokens.hpp
+/home/anton/compcomp/Tokens.hpp
 Tag.hpp
-C:/Users/anton/compcomp/Tag.hpp
+/home/anton/compcomp/Tag.hpp
 iostream
 -
 utility
 -
 
-C:/Users/anton/compcomp/asm/asm.cpp
+/home/anton/compcomp/asm/asm.cpp
 iostream
 -
 vector
@@ -64,13 +64,13 @@ sstream
 string
 -
 
-C:/Users/anton/compcomp/main.cpp
+/home/anton/compcomp/main.cpp
 iostream
 -
 Lexer.hpp
-C:/Users/anton/compcomp/Lexer.hpp
+/home/anton/compcomp/Lexer.hpp
 Parser.hpp
-C:/Users/anton/compcomp/Parser.hpp
+/home/anton/compcomp/Parser.hpp
 asm/asm.cpp
-C:/Users/anton/compcomp/asm/asm.cpp
+/home/anton/compcomp/asm/asm.cpp
 

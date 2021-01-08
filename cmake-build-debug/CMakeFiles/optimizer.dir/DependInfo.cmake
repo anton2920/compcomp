@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/anton/compcomp/asm/Lexer.cpp" "C:/Users/anton/compcomp/cmake-build-debug/CMakeFiles/optimizer.dir/asm/Lexer.cpp.obj"
-  "C:/Users/anton/compcomp/asm/Tokens.cpp" "C:/Users/anton/compcomp/cmake-build-debug/CMakeFiles/optimizer.dir/asm/Tokens.cpp.obj"
-  "C:/Users/anton/compcomp/asm/optimize.cpp" "C:/Users/anton/compcomp/cmake-build-debug/CMakeFiles/optimizer.dir/asm/optimize.cpp.obj"
+  "/home/anton/compcomp/asm/Lexer.cpp" "/home/anton/compcomp/cmake-build-debug/CMakeFiles/optimizer.dir/asm/Lexer.cpp.o"
+  "/home/anton/compcomp/asm/Tokens.cpp" "/home/anton/compcomp/cmake-build-debug/CMakeFiles/optimizer.dir/asm/Tokens.cpp.o"
+  "/home/anton/compcomp/asm/optimize.cpp" "/home/anton/compcomp/cmake-build-debug/CMakeFiles/optimizer.dir/asm/optimize.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

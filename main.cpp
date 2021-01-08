@@ -32,9 +32,15 @@ int main()
     std::cout << std::endl;
 
     /* Stage #3 Efficiency to go! */
-    if (system("optimizer.exe")) {
-        std::cerr << "Optimizer returned with non-zero exit code" << std::endl;
-    }
+    #ifdef _WIN32
+        if (system("optimizer.exe")) {
+            std::cerr << "Optimizer returned with non-zero exit code" << std::endl;
+        }
+    #else
+        if (system("./optimizer")) {
+            std::cerr << "Optimizer returned with non-zero exit code" << std::endl;
+        }
+    #endif
 
     /* Returning value */
     return 0;
