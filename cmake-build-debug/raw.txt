@@ -5,7 +5,7 @@ L3:
 	LOAD 453
 	STORE b
 L4:
-	LOAD 43541
+	LOAD 555666
 	STORE red
 L5:
 	CMP a, b
