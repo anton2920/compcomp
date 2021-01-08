@@ -8,7 +8,7 @@
 #include "Tokens.hpp"
 #include "Lexer.hpp"
 
-static std::ofstream file;
+static std::ofstream *file = nullptr;
 
 class Node {
 public:
@@ -17,12 +17,13 @@ public:
 
     Node()
     {
-        if (!file.is_open()) {
-            file.open("output.txt", std::ios_base::out);
-            if (!file.is_open()) {
-                file.open("/dev/stdout", std::ios_base::app);
-                if (!file.is_open()) {
-                    throw std::range_error("cannot open ifile");
+        if (file == nullptr) {
+            file = new std::ofstream;
+            file->open("output.txt", std::ios_base::out);
+            if (!file->is_open()) {
+                file->open("/dev/stdout", std::ios_base::app);
+                if (!file->is_open()) {
+                    throw std::range_error("cannot open file");
                 }
             }
         }
@@ -41,12 +42,12 @@ public:
 
     static void emitlabel(int i)
     {
-        file << "L" << std::to_string(i) << ":";
+        *file << "L" << std::to_string(i) << ":";
     }
 
     static void emit(const std::string &s)
     {
-        file << "\t" << s << std::endl;
+        *file << "\t" << s << std::endl;
     }
 
     virtual std::string toString()

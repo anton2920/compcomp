@@ -17,7 +17,8 @@ int main()
     catch (std::exception &e) {
         std::cout << e.what() << '\n';
     }
-    file.close();
+    file->close();
+    delete(file);
 
     /* Stage #2 (almost) TRUE Asm */
     try {
@@ -31,7 +32,7 @@ int main()
     std::cout << std::endl;
 
     /* Stage #3 Efficiency to go! */
-    if (system("./optimizer")) {
+    if (system("optimizer.exe")) {
         std::cerr << "Optimizer returned with non-zero exit code" << std::endl;
     }
 
